@@ -1,6 +1,6 @@
 # fortune-mod-zen
 
-This is an extensive collection oF hand-selected quotations from the world of Zen.
+This is an extensive collection of hand-selected quotations from the world of Zen.
 
 
 **Perspective**:  permanently growing
