@@ -2,5 +2,4 @@
 /target
 *.iml
 /project
-/src/main/resources/txt-gen
-/mods
+/mod
