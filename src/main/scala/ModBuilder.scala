@@ -16,15 +16,17 @@ class ModBuilder {
   }
 
   def callStrFile (path: String) {
-    val pathAbs = new File(path).getAbsolutePath
     import scala.sys.process._
-    new File (path).listFiles().filter (!_.getName.endsWith (".dat")).foreach ((e) => {
-      val datFileName = e.getName + ".dat"
+    val pathAbs = new File(path).getAbsolutePath
 
-      val cmd = "strfile \"" + pathAbs + "/" + e.getName + "\" \"" + pathAbs + "/" + datFileName + "\""
-      println(cmd)
-      cmd.!!
-    })
+    new File (path).listFiles()
+      .filter (!_.getName.endsWith (".dat"))
+      .foreach(e => {
+        val datFileName = e.getName + ".dat"
+        val cmd = "strfile \"" + pathAbs + "/" + e.getName + "\" \"" + pathAbs + "/" + datFileName + "\""
+        println(cmd)
+        cmd.!!
+      })
   }
 
   def buildMods (sourcePath: String, outPath: String):Unit = {
@@ -69,7 +71,10 @@ object ModBuilder {
     
     println
 
-    val modFiles = new File(modPath).listFiles.filter(_.isFile).toList
+    val modFiles = new File(modPath).listFiles
+      .filter(_.isFile)
+      .toList
+
     for (f <- modFiles) {
       s"/usr/bin/strfile $f" !
     }
