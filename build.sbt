@@ -1,6 +1,6 @@
 name := "fortune-mod-zen"
 
-version := "1.0.5"
+version := "1.0.6"
 
 scalaVersion := "2.13.4"
 
