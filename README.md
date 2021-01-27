@@ -1,6 +1,6 @@
 # Zen fortune mod
 
-This is a hand-collected, high quality collection of Zen quotations.
+This is a hand-crafted, high quality collection of Zen quotations.
 
 **Perspective**:  permanently growing
 
