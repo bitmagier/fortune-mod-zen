@@ -24,4 +24,4 @@ The last step is to configure *fortune* to actually use the Zen fortune mod.
 - Configure your fortunes by adding the following line to the profile script of your favorite shell (e.g. ~/.bashrc for bash).<br/>
   `fortune Zen`<br/>
 An of course it is possible to use it together with other fortune mods with a line like this one:<br/>
-  `fortune 75% Zen 20% de/zitate 5% pratchet`
+  `fortune 75% Zen 18% de/zitate 7% pratchett`
