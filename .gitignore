@@ -1,5 +1,6 @@
 .idea
 /target
+/.bsp
 *.iml
 /project
-/mod
+
