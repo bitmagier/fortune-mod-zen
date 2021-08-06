@@ -1,6 +1,6 @@
 # Zen fortune mod
 
-This is my hand-crafted, high quality collection of Zen quotations and quotations that belong to the space of Zen as I see it..
+This is my hand-crafted, high quality collection of Zen quotations and quotations that belong to the space of Zen as I see it.
 
 **Perspective**:  permanently growing
 
