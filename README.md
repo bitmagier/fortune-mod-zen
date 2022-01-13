@@ -2,6 +2,8 @@
 
 This is my hand-crafted, high quality collection of Zen quotations and other quotations that belong to the space of Zen as I see it.
 
+**Languages**: English & German
+
 **Perspective**:  permanently growing
 
 Setup (for GNU/Linux):
