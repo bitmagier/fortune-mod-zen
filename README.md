@@ -1,6 +1,6 @@
 # Zen quotations (fortune mod)
 
-This is my hand-crafted, high quality collection of Zen quotations and other quotations that belong to the space of Zen as I see it.
+This is a hand-crafted, high quality collection of Zen quotations and related ones, that belong to the space of Zen as I see it.
 
 **Languages**: English & German
 
@@ -8,14 +8,15 @@ This is my hand-crafted, high quality collection of Zen quotations and other quo
 
 Setup (for GNU/Linux):
 -
-To use it, just copy the pre-generated *fortune* mod files from folder "/mod" into your *fortune* mod folder (or more elegant: create two links to the generated files from there).
-The last step is to configure *fortune* to actually use the Zen fortune mod.
+To use it, just make the *fortune* mod files (Zen, Zen.dat) available to your *fortune* application.
+Then configure *fortune* to actually use the _Zen_ fortune mod.
 
-- If not already done, you need to install "fortune" app (called "fortune-mod" sometimes) via your "Software Manager"<br/>
-  `sudo apt install fortune-mod`
-- Copy the generated mod files "Zen" and "Zen.dat" to the fortunes mod folder (e.g. "/usr/share/games/fortunes")<br/>
-  `sudo cp mod/Zen mod/Zen.dat /usr/share/games/fortunes/`
-- Configure your fortunes by adding the following line to the profile script of your favorite shell (e.g. ~/.bashrc for bash).<br/>
+- If not already done, you need to install "fortune" app (called "fortune-mod" sometimes) e.g. via your "Software Manager"<br/>
+  e.g. under Ubuntu Linux: `sudo apt install fortune-mod`
+- Copy the mod files "Zen" and "Zen.dat" to the fortunes mod folder (e.g. "/usr/share/games/fortunes" in Ubuntu)<br/>
+  `sudo cp Zen Zen.dat /usr/share/games/fortunes/`
+- Configure your fortunes 
+  e.g. under Linux: by adding the following line to your shell startup script (e.g. ~/.bashrc for bash).<br/>
   `fortune Zen`<br/>
   An of course it is possible to use it together with other fortune mods with a line like this one:<br/>
   `fortune 75% Zen 18% de/zitate 7% pratchett`
