@@ -1,6 +1,6 @@
 # Zen quotations (fortune)
 
-🙏 This is my hand-crafted, high quality collection of Zen quotations 
+This is my hand-crafted, high quality collection of Zen quotations 🙏
 
 **Languages**: English & German
 
