@@ -1,8 +1,9 @@
-# Zen quotations (fortune mod)
+# Zen quotations (fortune)
 
-This is a hand-crafted, high quality collection of Zen quotations and related ones.
+🙏 This is my hand-crafted, high quality collection of Zen quotations 
 
 **Languages**: English & German
+
 
 
 Setup (for GNU/Linux):
