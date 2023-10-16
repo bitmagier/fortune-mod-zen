@@ -1,10 +1,11 @@
 # Zen quotations (fortune)
 
-This is my hand-crafted, high quality collection of Zen quotations 🙏
+This is my hand-crafted, high quality collection of Zen quotations.
 
-**Languages**: English & German
+Have a tea with me friend  🙏
 
-
+---
+**Languages**: English & some German
 
 Setup (for GNU/Linux):
 -
