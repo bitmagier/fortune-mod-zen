@@ -9,11 +9,13 @@ Friend — have a cup of tea and enjoy this timeless wisdom with me 🙏
 
 ---
 
-Setup (for GNU/Linux):
+Setup (for GNU/Linux)
 -
-To use it, just make the *fortune* mod files (`Zen`, `Zen.dat`) available to your *fortune* application.
-Then configure *fortune* to actually use the _Zen_ fortune mod.
+To use it, just make the *fortune* mod files [`Zen_de`,`Zen_de.dat`,`Zen_en`,`Zen_en.dat`] available to your *fortune* application.
+Then configure __fortune__ to actually use the __Zen__ fortune mod.
 
+Details step-by-step
+-
 - If not already present, please install the "fortune" app (called "fortune-mod" sometimes) via your "Software Manager"<br/>
   e.g. under Ubuntu Linux: `sudo apt install fortune-mod`
 - Copy the mod files [`Zen_de`,`Zen_de.dat`,`Zen_en`,`Zen_en.dat`] to fortune's mod folder (e.g. `/usr/share/games/fortunes` in Ubuntu)<br/>
