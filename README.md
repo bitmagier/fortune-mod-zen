@@ -1,11 +1,13 @@
 # Zen quotations (fortune)
 
-This is my hand-crafted, high quality collection of Zen quotes.
+Hand-crafted, high quality collection of Zen quotes.
 
-Friend - have a tea with me 🙏
+Friend — have a cup of tea and enjoy this timeless wisdom with me 🙏
 
 ---
-**Languages**: English and some German
+**Languages**: English and German
+
+---
 
 Setup (for GNU/Linux):
 -
@@ -14,11 +16,9 @@ Then configure *fortune* to actually use the _Zen_ fortune mod.
 
 - If not already present, please install the "fortune" app (called "fortune-mod" sometimes) via your "Software Manager"<br/>
   e.g. under Ubuntu Linux: `sudo apt install fortune-mod`
-- Copy the mod files `Zen` and `Zen.dat` to fortune's mod folder (e.g. '/usr/share/games/fortunes' in Ubuntu)<br/>
+- Copy the mod files [`Zen_de`,`Zen_de.dat`,`Zen_en`,`Zen_en.dat`] to fortune's mod folder (e.g. `/usr/share/games/fortunes` in Ubuntu)<br/>
   `sudo cp Zen Zen.dat /usr/share/games/fortunes/`
 - Configure your fortunes 
-  e.g. under Linux: by adding the following line to your shell startup script (e.g. '~/.bashrc' for bash):<br/>
-  `fortune Zen`<br/><br/>
-  And of course it is possible to use it together with other fortune mods using a line like this one:<br/>
-  `fortune 75% Zen 18% de/zitate 7% pratchett`
-
+  e.g. under Linux: by adding the following line to your shell startup script (e.g. `~/.bashrc` for bash):<br/><br>
+  `fortune 50% Zen_en 50% Zen_de`<br/><br/>
+  
